@@ -1,12 +1,7 @@
 import App, { Container } from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-
-const theme = {
-  colors: {
-    primary: 'pink'
-  }
-}
+import { msTheme, dnTheme } from 'marley-spoon-ui'
 
 export default class MyApp extends App {
   static async getInitialProps ({ Component, ctx }) {
@@ -23,7 +18,7 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <Container>
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={msTheme}>
           <Component {...pageProps} />
         </ThemeProvider>
       </Container>

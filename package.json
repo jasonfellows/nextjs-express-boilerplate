@@ -22,7 +22,8 @@
   "homepage": "https://github.com/jasonfellows/nextjs-express-boilerplate#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "next": "^8.1.0",
+    "marley-spoon-ui": "^0.0.5",
+    "next": "8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0"
